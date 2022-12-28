@@ -2,14 +2,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const lName = "Pun";
+const fName = "VireakRoth";
 ReactDOM.render(
   <div>
-    <h1>Cat likes</h1>
-    <ul>
-      <li>Light pointer</li>
-      <li>ball</li>
-      <li>Fish</li>
-    </ul>
+    <h1>My name</h1>
+    <p>{`${lName} ${fName}`}</p>
   </div>,
   document.getElementById("root")
 );
