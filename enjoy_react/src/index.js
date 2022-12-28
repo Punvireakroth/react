@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const lName = "Pun";
-const fName = "VireakRoth";
+const fName = "Sakada";
 ReactDOM.render(
   <div>
     <h1>My name</h1>
