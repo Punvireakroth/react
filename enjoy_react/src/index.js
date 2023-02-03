@@ -1,5 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./component/App";
+import ReactDom from "react-dom";
+import Header from "./Header";
+import Greeting from "./Greeting";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Header></Header>
+        <Greeting name="Cambodia" />
+      </>
+    );
+  }
+}
+
+ReactDom.render(<App />, document.getElementById("root"));
